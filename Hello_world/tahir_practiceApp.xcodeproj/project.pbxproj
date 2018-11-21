@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF4833C521715C240025DF82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4833C421715C240025DF82 /* AppDelegate.swift */; };
+		DF4833C721715C240025DF82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4833C621715C240025DF82 /* ViewController.swift */; };
+		DF4833CA21715C240025DF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4833C821715C240025DF82 /* Main.storyboard */; settings = {ASSET_TAGS = (label, ); }; };
+		DF4833CC21715C260025DF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4833CB21715C260025DF82 /* Assets.xcassets */; };
+		DF4833CF21715C260025DF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4833CD21715C260025DF82 /* LaunchScreen.storyboard */; };
+		DF4833DA21715C260025DF82 /* tahir_practiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4833D921715C260025DF82 /* tahir_practiceAppTests.swift */; };
+		DF4833E521715C260025DF82 /* tahir_practiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4833E421715C260025DF82 /* tahir_practiceAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF4833D621715C260025DF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF4833B921715C240025DF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4833C021715C240025DF82;
+			remoteInfo = tahir_practiceApp;
+		};
+		DF4833E121715C260025DF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF4833B921715C240025DF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4833C021715C240025DF82;
+			remoteInfo = tahir_practiceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF4833C121715C240025DF82 /* tahir_practiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tahir_practiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4833C421715C240025DF82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF4833C621715C240025DF82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF4833C921715C240025DF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF4833CB21715C260025DF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF4833CE21715C260025DF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF4833D021715C260025DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4833D521715C260025DF82 /* tahir_practiceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tahir_practiceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4833D921715C260025DF82 /* tahir_practiceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tahir_practiceAppTests.swift; sourceTree = "<group>"; };
+		DF4833DB21715C260025DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4833E021715C260025DF82 /* tahir_practiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tahir_practiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4833E421715C260025DF82 /* tahir_practiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tahir_practiceAppUITests.swift; sourceTree = "<group>"; };
+		DF4833E621715C260025DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4833BE21715C240025DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4833D221715C260025DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4833DD21715C260025DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4833B821715C240025DF82 = {
+			isa = PBXGroup;
+			children = (
+				DF4833C321715C240025DF82 /* tahir_practiceApp */,
+				DF4833D821715C260025DF82 /* tahir_practiceAppTests */,
+				DF4833E321715C260025DF82 /* tahir_practiceAppUITests */,
+				DF4833C221715C240025DF82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4833C221715C240025DF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4833C121715C240025DF82 /* tahir_practiceApp.app */,
+				DF4833D521715C260025DF82 /* tahir_practiceAppTests.xctest */,
+				DF4833E021715C260025DF82 /* tahir_practiceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4833C321715C240025DF82 /* tahir_practiceApp */ = {
+			isa = PBXGroup;
+			children = (
+				DF4833C421715C240025DF82 /* AppDelegate.swift */,
+				DF4833C621715C240025DF82 /* ViewController.swift */,
+				DF4833C821715C240025DF82 /* Main.storyboard */,
+				DF4833CB21715C260025DF82 /* Assets.xcassets */,
+				DF4833CD21715C260025DF82 /* LaunchScreen.storyboard */,
+				DF4833D021715C260025DF82 /* Info.plist */,
+			);
+			path = tahir_practiceApp;
+			sourceTree = "<group>";
+		};
+		DF4833D821715C260025DF82 /* tahir_practiceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF4833D921715C260025DF82 /* tahir_practiceAppTests.swift */,
+				DF4833DB21715C260025DF82 /* Info.plist */,
+			);
+			path = tahir_practiceAppTests;
+			sourceTree = "<group>";
+		};
+		DF4833E321715C260025DF82 /* tahir_practiceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF4833E421715C260025DF82 /* tahir_practiceAppUITests.swift */,
+				DF4833E621715C260025DF82 /* Info.plist */,
+			);
+			path = tahir_practiceAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4833C021715C240025DF82 /* tahir_practiceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4833E921715C260025DF82 /* Build configuration list for PBXNativeTarget "tahir_practiceApp" */;
+			buildPhases = (
+				DF4833BD21715C240025DF82 /* Sources */,
+				DF4833BE21715C240025DF82 /* Frameworks */,
+				DF4833BF21715C240025DF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tahir_practiceApp;
+			productName = tahir_practiceApp;
+			productReference = DF4833C121715C240025DF82 /* tahir_practiceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF4833D421715C260025DF82 /* tahir_practiceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4833EC21715C260025DF82 /* Build configuration list for PBXNativeTarget "tahir_practiceAppTests" */;
+			buildPhases = (
+				DF4833D121715C260025DF82 /* Sources */,
+				DF4833D221715C260025DF82 /* Frameworks */,
+				DF4833D321715C260025DF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF4833D721715C260025DF82 /* PBXTargetDependency */,
+			);
+			name = tahir_practiceAppTests;
+			productName = tahir_practiceAppTests;
+			productReference = DF4833D521715C260025DF82 /* tahir_practiceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF4833DF21715C260025DF82 /* tahir_practiceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4833EF21715C260025DF82 /* Build configuration list for PBXNativeTarget "tahir_practiceAppUITests" */;
+			buildPhases = (
+				DF4833DC21715C260025DF82 /* Sources */,
+				DF4833DD21715C260025DF82 /* Frameworks */,
+				DF4833DE21715C260025DF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF4833E221715C260025DF82 /* PBXTargetDependency */,
+			);
+			name = tahir_practiceAppUITests;
+			productName = tahir_practiceAppUITests;
+			productReference = DF4833E021715C260025DF82 /* tahir_practiceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4833B921715C240025DF82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					label,
+				);
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Tahir sahib";
+				TargetAttributes = {
+					DF4833C021715C240025DF82 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DF4833D421715C260025DF82 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DF4833C021715C240025DF82;
+					};
+					DF4833DF21715C260025DF82 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DF4833C021715C240025DF82;
+					};
+				};
+			};
+			buildConfigurationList = DF4833BC21715C240025DF82 /* Build configuration list for PBXProject "tahir_practiceApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF4833B821715C240025DF82;
+			productRefGroup = DF4833C221715C240025DF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4833C021715C240025DF82 /* tahir_practiceApp */,
+				DF4833D421715C260025DF82 /* tahir_practiceAppTests */,
+				DF4833DF21715C260025DF82 /* tahir_practiceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4833BF21715C240025DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4833CF21715C260025DF82 /* LaunchScreen.storyboard in Resources */,
+				DF4833CC21715C260025DF82 /* Assets.xcassets in Resources */,
+				DF4833CA21715C240025DF82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4833D321715C260025DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4833DE21715C260025DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4833BD21715C240025DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4833C721715C240025DF82 /* ViewController.swift in Sources */,
+				DF4833C521715C240025DF82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4833D121715C260025DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4833DA21715C260025DF82 /* tahir_practiceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4833DC21715C260025DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4833E521715C260025DF82 /* tahir_practiceAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF4833D721715C260025DF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF4833C021715C240025DF82 /* tahir_practiceApp */;
+			targetProxy = DF4833D621715C260025DF82 /* PBXContainerItemProxy */;
+		};
+		DF4833E221715C260025DF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF4833C021715C240025DF82 /* tahir_practiceApp */;
+			targetProxy = DF4833E121715C260025DF82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF4833C821715C240025DF82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4833C921715C240025DF82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF4833CD21715C260025DF82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4833CE21715C260025DF82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF4833E721715C260025DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF4833E821715C260025DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF4833EA21715C260025DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tahir_practiceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tahir.tahir-practiceApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF4833EB21715C260025DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tahir_practiceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tahir.tahir-practiceApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF4833ED21715C260025DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tahir_practiceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tahir.tahir-practiceAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tahir_practiceApp.app/tahir_practiceApp";
+			};
+			name = Debug;
+		};
+		DF4833EE21715C260025DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tahir_practiceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tahir.tahir-practiceAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tahir_practiceApp.app/tahir_practiceApp";
+			};
+			name = Release;
+		};
+		DF4833F021715C260025DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tahir_practiceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tahir.tahir-practiceAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tahir_practiceApp;
+			};
+			name = Debug;
+		};
+		DF4833F121715C260025DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tahir_practiceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tahir.tahir-practiceAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tahir_practiceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4833BC21715C240025DF82 /* Build configuration list for PBXProject "tahir_practiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4833E721715C260025DF82 /* Debug */,
+				DF4833E821715C260025DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4833E921715C260025DF82 /* Build configuration list for PBXNativeTarget "tahir_practiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4833EA21715C260025DF82 /* Debug */,
+				DF4833EB21715C260025DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4833EC21715C260025DF82 /* Build configuration list for PBXNativeTarget "tahir_practiceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4833ED21715C260025DF82 /* Debug */,
+				DF4833EE21715C260025DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4833EF21715C260025DF82 /* Build configuration list for PBXNativeTarget "tahir_practiceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4833F021715C260025DF82 /* Debug */,
+				DF4833F121715C260025DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF4833B921715C240025DF82 /* Project object */;
+}

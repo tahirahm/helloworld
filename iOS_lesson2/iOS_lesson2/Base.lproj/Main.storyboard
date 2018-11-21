@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_lesson2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landscape" translatesAutoresizingMaskIntoConstraints="NO" id="eGE-Xr-ZKF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZQk-Qa-gag">
+                                <rect key="frame" x="0.0" y="515.33333333333337" width="414" height="220.66666666666663"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City by the Sea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOI-cH-xld">
+                                        <rect key="frame" x="20" y="30" width="374" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a picture of a very beautifull city !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFM-CL-4Le">
+                                        <rect key="frame" x="20" y="90" width="374" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="kFM-CL-4Le" secondAttribute="trailing" constant="20" id="2gG-bZ-DuA"/>
+                                    <constraint firstItem="aOI-cH-xld" firstAttribute="leading" secondItem="ZQk-Qa-gag" secondAttribute="leading" constant="20" id="GJ0-gD-jR1"/>
+                                    <constraint firstItem="kFM-CL-4Le" firstAttribute="leading" secondItem="ZQk-Qa-gag" secondAttribute="leading" constant="20" id="Juv-pc-K9L"/>
+                                    <constraint firstItem="aOI-cH-xld" firstAttribute="top" secondItem="ZQk-Qa-gag" secondAttribute="top" constant="30" id="K8F-aO-kjX"/>
+                                    <constraint firstAttribute="trailing" secondItem="aOI-cH-xld" secondAttribute="trailing" constant="20" id="VUC-gO-RwD"/>
+                                    <constraint firstItem="kFM-CL-4Le" firstAttribute="top" secondItem="aOI-cH-xld" secondAttribute="bottom" constant="30" id="cb7-2n-f9e"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eGE-Xr-ZKF" secondAttribute="bottom" constant="200" id="Bgz-3C-e0e"/>
+                            <constraint firstItem="ZQk-Qa-gag" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="FOe-fZ-skm"/>
+                            <constraint firstItem="ZQk-Qa-gag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SAl-CN-ol9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eGE-Xr-ZKF" secondAttribute="trailing" id="Sfm-fv-yBk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZQk-Qa-gag" secondAttribute="bottom" id="UD4-3m-kiU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZQk-Qa-gag" secondAttribute="trailing" id="bD7-6C-2Ad"/>
+                            <constraint firstAttribute="bottom" secondItem="eGE-Xr-ZKF" secondAttribute="bottom" id="hgV-WG-vEZ"/>
+                            <constraint firstItem="eGE-Xr-ZKF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sDN-Mb-XZa"/>
+                            <constraint firstItem="eGE-Xr-ZKF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="t2Y-Av-AEe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="landscape" width="481.20001220703125" height="260.39999389648438"/>
+    </resources>
+</document>
